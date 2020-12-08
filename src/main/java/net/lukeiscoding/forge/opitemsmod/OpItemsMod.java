@@ -1,6 +1,6 @@
 package net.lukeiscoding.forge.opitemsmod;
 
-import net.lukeiscoding.forge.opitemsmod.registry.RegistryHandler;
+import net.lukeiscoding.forge.opitemsmod.registry.RegisterItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -24,7 +24,7 @@ public class OpItemsMod {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
 
         // call the registryInit method from the RegistryHandler class
-        RegistryHandler.registryInit();
+        RegisterItems.registryInit();
 
         // register the mod to the forge event bus
         MinecraftForge.EVENT_BUS.register(this);
