@@ -1,6 +1,6 @@
 package net.lukeiscoding.forge.opitemsmod.tools;
 
-import net.lukeiscoding.forge.opitemsmod.registry.RegistryHandler;
+import net.lukeiscoding.forge.opitemsmod.registry.RegisterItems;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
@@ -18,19 +18,19 @@ public enum OpItemsModItemTier implements IItemTier {
 
     // swords...
     DRAGON_SLAYER(69, 4000, 999.9f, 2000.0f, 5, () -> {
-        return Ingredient.fromItems(RegistryHandler.DRAGON_SLAYER.get());
+        return Ingredient.fromItems(RegisterItems.DRAGON_SLAYER.get());
     }),
 
     EMERALD_SWORD(3, 200, 8.0f, 16.0f, 5, () -> {
-        return Ingredient.fromItems(RegistryHandler.EMERALD_SWORD.get());
+        return Ingredient.fromItems(RegisterItems.EMERALD_SWORD.get());
     }),
     // axes...
     EMERALD_AXE(3, 175, 9.0f, 18.0f, 6, () -> {
-        return Ingredient.fromItems(RegistryHandler.EMERALD_AXE.get());
+        return Ingredient.fromItems(RegisterItems.EMERALD_AXE.get());
     }),
     // pickaxes
     EMERALD_PICKAXE(3, 300, 14.0f, 6.5f, 8, () -> {
-        return Ingredient.fromItems(RegistryHandler.EMERALD_PICKAXE.get());
+        return Ingredient.fromItems(RegisterItems.EMERALD_PICKAXE.get());
     });
 
     private final int harvestLevel;
