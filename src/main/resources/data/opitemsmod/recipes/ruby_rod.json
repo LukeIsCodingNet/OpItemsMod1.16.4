@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/",
+    "/"
+  ],
+  "key": {
+    "/": {
+      "item": "opitemsmod:ruby"
+    }
+  },
+  "result": {
+    "item": "opitemsmod:ruby_rod",
+    "count": 4
+  }
+}

@@ -2,6 +2,7 @@ package net.lukeiscoding.forge.opitemsmod.registry;
 
 import net.lukeiscoding.forge.opitemsmod.OpItemsMod;
 import net.lukeiscoding.forge.opitemsmod.blocks.RubyBlock;
+import net.lukeiscoding.forge.opitemsmod.blocks.RubyOre;
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -20,4 +21,5 @@ public class RegisterBlocks {
 
     // blocks...
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+    public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
 }
