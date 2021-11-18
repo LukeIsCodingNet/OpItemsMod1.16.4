@@ -21,9 +21,14 @@ public enum OpItemsModItemTier implements IItemTier {
         return Ingredient.fromItems(RegisterItems.DRAGON_SLAYER.get());
     }),
 
-    EMERALD_SWORD(3, 200, 8.0f, 16.0f, 5, () -> {
+    EMERALD_SWORD(3, 4000, 8.0f, 16.0f, 5, () -> {
         return Ingredient.fromItems(RegisterItems.EMERALD_SWORD.get());
     }),
+
+    ZOMBIE_SLASHER(2, 5000, 300.0f, 20.0f, 7, () -> {
+        return Ingredient.fromItems(RegisterItems.ZOMBIE_SLASHER.get());
+    }),
+
     // axes...
     EMERALD_AXE(3, 175, 9.0f, 18.0f, 6, () -> {
         return Ingredient.fromItems(RegisterItems.EMERALD_AXE.get());

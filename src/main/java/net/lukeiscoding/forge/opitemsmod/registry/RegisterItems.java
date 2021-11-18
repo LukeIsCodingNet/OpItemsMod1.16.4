@@ -32,6 +32,10 @@ public class RegisterItems {
             new SwordItem(OpItemsModItemTier.EMERALD_SWORD, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_SWORDS_TAB).setNoRepair())
     );
 
+    public static final RegistryObject<SwordItem> ZOMBIE_SLASHER = ITEMS.register("zombie_slasher", () ->
+            new SwordItem(OpItemsModItemTier.ZOMBIE_SLASHER, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_SWORDS_TAB))
+    );
+
     // axes...
     public static final RegistryObject<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe", () ->
             new AxeItem(OpItemsModItemTier.EMERALD_AXE, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_AXES_TAB).setNoRepair())
@@ -46,4 +50,6 @@ public class RegisterItems {
     public static final RegistryObject<Item> EMERALD_NUGGET = ITEMS.register("emerald_nugget", MaterialItemBase::new);
     public static final RegistryObject<Item> EMERALD_ROD = ITEMS.register("emerald_rod", MaterialItemBase::new);
     public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", BaseItem::new);
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", BaseItem::new);
+    public static final RegistryObject<Item> RUBY_ROD = ITEMS.register("ruby_rod", MaterialItemBase::new);
 }

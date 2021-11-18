@@ -23,4 +23,8 @@ public class RegisterBlockItems {
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = BLOCK_ITEMS.register("ruby_block", () ->
             new BlockItem(RegisterBlocks.RUBY_BLOCK.get(), new Item.Properties().group(RegisterItemGroups.OP_BLOCKS_TAB))
     );
+
+    public static final RegistryObject<Item> RUBY_ORE_ITEM = BLOCK_ITEMS.register("ruby_ore", () ->
+            new BlockItem(RegisterBlocks.RUBY_ORE.get(), new Item.Properties().group(RegisterItemGroups.OP_BLOCKS_TAB))
+    );
 }

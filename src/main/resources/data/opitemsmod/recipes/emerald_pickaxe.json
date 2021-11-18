@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "E",
+    "/"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "/": {
+      "item": "opitemsmod:emerald_rod"
+    }
+  },
+  "result": {
+    "item": "opitemsmod:emerald_pic",
+    "count": 1
+  }
+}
