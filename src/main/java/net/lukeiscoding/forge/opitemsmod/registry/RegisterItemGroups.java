@@ -64,4 +64,11 @@ public class RegisterItemGroups {
             return new ItemStack(RegisterBlockItems.RUBY_BLOCK_ITEM.get());
         }
     };
+
+    public static final ItemGroup OP_ORES_TAB = new ItemGroup("op_ores_tab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegisterBlockItems.RUBY_ORE_ITEM.get());
+        }
+    };
 }

@@ -69,4 +69,6 @@ public class RegisterItems {
     public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", BaseItem::new);
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", BaseItem::new);
     public static final RegistryObject<Item> RUBY_ROD = ITEMS.register("ruby_rod", MaterialItemBase::new);
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", BaseItem::new);
+    public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget", MaterialItemBase::new);
 }

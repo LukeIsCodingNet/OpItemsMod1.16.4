@@ -6,6 +6,7 @@
   "itemGroup.op_axes_tab": "Op Items Mod: Axes",
   "itemGroup.op_blocks_tab": "Op Items Mod: Blocks",
   "itemGroup.op_pickaxes_tab": "Op Items Mod: Pickaxes",
+  "itemGroup.op_ores_tab": "Op Items Mod: Ores",
   "item.opitemsmod.emerald_sword": "Emerald Sword",
   "item.opitemsmod.emerald_nugget": "Emerald Nugget",
   "item.opitemsmod.emerald_rod": "Emerald Rod",
@@ -14,6 +15,11 @@
   "item.opitemsmod.dragon_slayer": "Dragon Slayer",
   "item.opitemsmod.zombie_slasher": "Zombie Slasher",
   "item.opitemsmod.ruby_rod": "Ruby Rod",
+  "item.opitemsmod.bronze_ingot": "Bronze Ingot",
+  "item.opitemsmod.bronze_nugget": "Bronze Nugget",
   "item.opitemsmod.emerald_pickaxe": "Emerald Pickaxe",
-  "block.opitemsmod.ruby_block": "Block of Ruby"
+  "block.opitemsmod.ruby_block": "Block of Ruby",
+  "block.opitemsmod.ruby_ore": "Ruby Ore,",
+  "block.opitemsmod.bronze_block": "Block of Bronze",
+  "block.opitemsmod.bronze_ore": "Bronze Ore"
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "opitemsmod:bronze_ore"
+  },
+  "result": "opitemsmod:bronze_ingot",
+  "experience": 1.6,
+  "cookingtime": 300
+}
