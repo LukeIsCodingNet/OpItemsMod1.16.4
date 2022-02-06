@@ -3,11 +3,10 @@ package net.lukeiscoding.forge.opitemsmod.registry;
 import net.lukeiscoding.forge.opitemsmod.OpItemsMod;
 import net.lukeiscoding.forge.opitemsmod.items.BaseItem;
 import net.lukeiscoding.forge.opitemsmod.items.MaterialItemBase;
+import net.lukeiscoding.forge.opitemsmod.tools.OpItemsModArmorMaterial;
 import net.lukeiscoding.forge.opitemsmod.tools.OpItemsModItemTier;
-import net.minecraft.item.AxeItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -53,6 +52,10 @@ public class RegisterItems {
             new SwordItem(OpItemsModItemTier.ZOMBIE_SLASHER, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_SWORDS_TAB))
     );
 
+    public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
+            new SwordItem(OpItemsModItemTier.RUBY_SWORD, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_SWORDS_TAB))
+    );
+
     // axes...
     public static final RegistryObject<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe", () ->
             new AxeItem(OpItemsModItemTier.EMERALD_AXE, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_AXES_TAB).setNoRepair())
@@ -61,6 +64,26 @@ public class RegisterItems {
     // pickaxes...
     public static final RegistryObject<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () ->
             new PickaxeItem(OpItemsModItemTier.EMERALD_PICKAXE, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_PICKAXES_TAB).setNoRepair())
+    );
+
+    // helmets
+    public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () ->
+            new ArmorItem(OpItemsModArmorMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(RegisterItemGroups.OP_ARMOR_TAB))
+    );
+
+    // chest plates...
+    public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () ->
+            new ArmorItem(OpItemsModArmorMaterial.RUBY, EquipmentSlotType.CHEST, new Item.Properties().group(RegisterItemGroups.OP_ARMOR_TAB))
+    );
+
+    // leggings...
+    public static final RegistryObject<ArmorItem> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () ->
+            new ArmorItem(OpItemsModArmorMaterial.RUBY, EquipmentSlotType.LEGS, new Item.Properties().group(RegisterItemGroups.OP_ARMOR_TAB))
+    );
+
+    // boots...
+    public static final RegistryObject<ArmorItem> RUBY_BOOTS = ITEMS.register("ruby_boots", () ->
+            new ArmorItem(OpItemsModArmorMaterial.RUBY, EquipmentSlotType.FEET, new Item.Properties().group(RegisterItemGroups.OP_ARMOR_TAB))
     );
 
     // items...

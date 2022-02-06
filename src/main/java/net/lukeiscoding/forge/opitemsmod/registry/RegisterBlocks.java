@@ -1,11 +1,10 @@
 package net.lukeiscoding.forge.opitemsmod.registry;
 
 import net.lukeiscoding.forge.opitemsmod.OpItemsMod;
-import net.lukeiscoding.forge.opitemsmod.blocks.BronzeBlock;
-import net.lukeiscoding.forge.opitemsmod.blocks.BronzeOre;
-import net.lukeiscoding.forge.opitemsmod.blocks.RubyBlock;
-import net.lukeiscoding.forge.opitemsmod.blocks.RubyOre;
+import net.lukeiscoding.forge.opitemsmod.blocks.*;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.FurnaceBlock;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
