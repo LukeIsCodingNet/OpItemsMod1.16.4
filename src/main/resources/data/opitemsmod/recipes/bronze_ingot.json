@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:recipe_shapeless",
+  "ingredients": [
+    {
+      "item": "opitemsmod:bronze_ingot"
+    }
+  ],
+  "result": {
+    "item": "opitemsmod:bronze_nugget",
+    "count": 9
+  }
+}

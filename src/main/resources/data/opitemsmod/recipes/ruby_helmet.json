@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "R R"
+  ],
+  "key": {
+    "R": {
+      "item": "opitemsmod:ruby"
+    }
+  },
+  "result": {
+    "item": "opitemsmod:ruby_helmet",
+    "count": 1
+  }
+}

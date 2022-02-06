@@ -42,6 +42,14 @@ public class RegisterBlockItems {
     );
 
     public static final RegistryObject<Item> RUBY_ORE_ITEM = BLOCK_ITEMS.register("ruby_ore", () ->
-            new BlockItem(RegisterBlocks.RUBY_ORE.get(), new Item.Properties().group(RegisterItemGroups.OP_BLOCKS_TAB))
+            new BlockItem(RegisterBlocks.RUBY_ORE.get(), new Item.Properties().group(RegisterItemGroups.OP_ORES_TAB))
+    );
+
+    public static final RegistryObject<Item> BRONZE_BLOCK_ITEM = BLOCK_ITEMS.register("bronze_block", () ->
+            new BlockItem(RegisterBlocks.BRONZE_BLOCK.get(), new Item.Properties().group(RegisterItemGroups.OP_BLOCKS_TAB))
+    );
+
+    public static final RegistryObject<Item> BRONZE_ORE_ITEM = BLOCK_ITEMS.register("bronze_ore", () ->
+            new BlockItem(RegisterBlocks.BRONZE_ORE.get(), new Item.Properties().group(RegisterItemGroups.OP_ORES_TAB))
     );
 }

@@ -46,6 +46,10 @@ public enum OpItemsModItemTier implements IItemTier {
         return Ingredient.fromItems(RegisterItems.ZOMBIE_SLASHER.get());
     }),
 
+    RUBY_SWORD(3, 8000, 9.50f, 45.5f, 8, () -> {
+        return Ingredient.fromItems(RegisterItems.RUBY_SWORD.get());
+    }),
+
     // axes...
     EMERALD_AXE(3, 175, 9.0f, 18.0f, 6, () -> {
         return Ingredient.fromItems(RegisterItems.EMERALD_AXE.get());
