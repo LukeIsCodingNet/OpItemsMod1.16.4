@@ -34,6 +34,7 @@ public class OreGeneration {
         if (!event.getCategory().equals(Biome.Category.NETHER) || !event.getCategory().equals(Biome.Category.THEEND)) {
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, RegisterBlocks.RUBY_ORE.get().getDefaultState(), 5, 45, 10, 16);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, RegisterBlocks.BRONZE_ORE.get().getDefaultState(), 8, 50, 12, 20);
+            generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, RegisterBlocks.STEEL_ORE.get().getDefaultState(), 6, 58, 8, 38);
         }
     }
 

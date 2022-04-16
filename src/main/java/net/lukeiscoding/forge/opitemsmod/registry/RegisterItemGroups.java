@@ -78,4 +78,11 @@ public class RegisterItemGroups {
             return new ItemStack(RegisterItems.RUBY_HELMET.get());
         }
     };
+
+    public static final ItemGroup OP_HOES_TAB = new ItemGroup("op_hoes_tab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegisterItems.STEEL_HOE.get());
+        }
+    };
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "opitemsmod:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "opitemsmod:steel_block",
+    "count": 1
+  }
+}

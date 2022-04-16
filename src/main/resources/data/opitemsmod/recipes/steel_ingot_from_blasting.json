@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "opitemsmod:steel_ore"
+  },
+  "result": "opitemsmod:steel_ingot",
+  "experience": 8.0,
+  "cookingtime": 600
+}
