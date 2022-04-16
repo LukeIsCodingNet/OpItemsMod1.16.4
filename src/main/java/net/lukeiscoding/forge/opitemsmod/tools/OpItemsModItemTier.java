@@ -57,6 +57,11 @@ public enum OpItemsModItemTier implements IItemTier {
     // pickaxes
     EMERALD_PICKAXE(3, 300, 14.0f, 6.5f, 8, () -> {
         return Ingredient.fromItems(RegisterItems.EMERALD_PICKAXE.get());
+    }),
+
+    // other...
+    STEEL(3, 480, 7.5f, 4.8f, 30, () -> {
+        return Ingredient.fromItems(RegisterItems.STEEL_INGOT.get());
     });
 
     private final int harvestLevel;

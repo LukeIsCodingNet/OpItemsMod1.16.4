@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "opitemsmod:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "opitemsmod:steel_nugget",
+    "count": 9
+  }
+}

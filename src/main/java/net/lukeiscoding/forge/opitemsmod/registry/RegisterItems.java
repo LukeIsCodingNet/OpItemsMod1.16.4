@@ -56,14 +56,31 @@ public class RegisterItems {
             new SwordItem(OpItemsModItemTier.RUBY_SWORD, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_SWORDS_TAB))
     );
 
+    public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword", () ->
+            new SwordItem(OpItemsModItemTier.STEEL, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_SWORDS_TAB))
+    );
+
     // axes...
     public static final RegistryObject<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe", () ->
             new AxeItem(OpItemsModItemTier.EMERALD_AXE, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_AXES_TAB).setNoRepair())
     );
 
+    public static final RegistryObject<AxeItem> STEEL_AXE = ITEMS.register("steel_axe", () ->
+            new AxeItem(OpItemsModItemTier.STEEL, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_AXES_TAB))
+    );
+
     // pickaxes...
     public static final RegistryObject<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () ->
             new PickaxeItem(OpItemsModItemTier.EMERALD_PICKAXE, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_PICKAXES_TAB).setNoRepair())
+    );
+
+    public static final RegistryObject<PickaxeItem> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () ->
+            new PickaxeItem(OpItemsModItemTier.STEEL, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_PICKAXES_TAB))
+    );
+
+    // hoes...
+    public static final RegistryObject<HoeItem> STEEL_HOE = ITEMS.register("steel_hoe", () ->
+            new HoeItem(OpItemsModItemTier.STEEL, 0, 0, new Item.Properties().group(RegisterItemGroups.OP_HOES_TAB))
     );
 
     // helmets
@@ -94,4 +111,6 @@ public class RegisterItems {
     public static final RegistryObject<Item> RUBY_ROD = ITEMS.register("ruby_rod", MaterialItemBase::new);
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", BaseItem::new);
     public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget", MaterialItemBase::new);
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", BaseItem::new);
+    public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", MaterialItemBase::new);
 }

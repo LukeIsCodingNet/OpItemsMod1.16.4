@@ -8,6 +8,7 @@
   "itemGroup.op_pickaxes_tab": "Op Items Mod: Pickaxes",
   "itemGroup.op_ores_tab": "Op Items Mod: Ores",
   "itemGroup.op_armor_tab": "Op Items Mod: Armor",
+  "itemGroup.op_hoes_tab": "Op Items Mod: Hoes",
   "item.opitemsmod.emerald_sword": "Emerald Sword",
   "item.opitemsmod.emerald_nugget": "Emerald Nugget",
   "item.opitemsmod.emerald_rod": "Emerald Rod",
@@ -24,8 +25,16 @@
   "item.opitemsmod.ruby_chestplate": "Ruby Chestplate",
   "item.opitemsmod.ruby_leggings": "Ruby Leggings",
   "item.opitemsmod.ruby_boots": "Ruby Boots",
+  "item.opitemsmod.steel_ingot": "Steel Ingot",
+  "item.opitemsmod.steel_nugget": "Steel Nugget",
+  "item.opitemsmod.steel_sword": "Steel Sword",
+  "item.opitemsmod.steel_pickaxe": "Steel Pickaxe",
+  "item.opitemsmod.steel_axe": "Steel Axe",
+  "item.opitemsmod.steel_hoe": "Steel Hoe",
   "block.opitemsmod.ruby_block": "Block of Ruby",
   "block.opitemsmod.ruby_ore": "Ruby Ore,",
   "block.opitemsmod.bronze_block": "Block of Bronze",
-  "block.opitemsmod.bronze_ore": "Bronze Ore"
+  "block.opitemsmod.bronze_ore": "Bronze Ore",
+  "block.opitemsmod.steel_block": "Block of Steel",
+  "block.opitemsmod.steel_ore": "Steel Ore"
 }
